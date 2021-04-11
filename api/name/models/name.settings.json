@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "names",
+  "info": {
+    "name": "name"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "chinese_name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "date": {
+      "type": "datetime"
+    }
+  }
+}
